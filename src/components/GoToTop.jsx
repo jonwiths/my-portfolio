@@ -32,7 +32,7 @@ function GotoTop() {
       {showButton && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-4 right-4 bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-700 focus:outline-none z-40"
+          className="fixed bottom-4 right-4 bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-900 focus:outline-none z-10"
         >
           Go to Top
         </button>

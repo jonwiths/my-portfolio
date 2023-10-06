@@ -19,7 +19,7 @@ const links = [
 const Footer = () => {
   return (
     <footer className="bg-slate-950 shadow ">
-      <div className="w-full h-[10vh] mx-auto p-4 md:flex md:items-center md:justify-between">
+      <div className="w-full min-h-[10vh] mx-auto p-4 md:flex md:items-center md:justify-between">
         <span className="text-lg text-gray-300 sm:text-center ">
           © 2023{' '}
           <a href="/" className="hover:underline">
