@@ -1,3 +1,7 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
 import { useState } from 'react';
 import { MdUnfoldLess, MdUnfoldMore } from 'react-icons/md';
 
@@ -8,11 +12,17 @@ const AboutMe = () => {
   const [isCompetenciesOpen, setIsCompetenciesOpen] = useState(false);
   return (
     <>
-      <section className="min-h-[100vh]" id="about-me">
-        <h4 className="text-2xl mt-8 md:mb-10 mb-4 text-center text-slate-600 ">
+      <section className="mb-20" id="about-me">
+        <h4
+          className="text-2xl mt-8  mb-4 text-center text-slate-600 "
+          data-aos="fade-up"
+        >
           Get to know me more
         </h4>
-        <div className="w-full mx-auto flex flex-col-reverse md:flex-row-reverse gap-4 text-slate-800">
+        <div
+          className="w-full mx-auto flex flex-col-reverse md:flex-row-reverse gap-4 text-slate-800"
+          data-aos="fade-right"
+        >
           <div className="flex-1  w-full">
             <h5 className="pb-2 text-xl italic md:text-left text-center uppercase">
               About me

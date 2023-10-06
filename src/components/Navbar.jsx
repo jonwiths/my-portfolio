@@ -5,7 +5,6 @@ import { FaLinkedin, FaFacebook } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
 
 import style from './Navbar.module.css';
-import mainLogo from '../assets/react.svg';
 
 const links = [
   {

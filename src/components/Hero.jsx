@@ -1,17 +1,23 @@
-import profile from '../assets/Jonslogar M. Arenque.jpg';
-import profile2 from '../assets/Arenque_Jonslogar_Formal.jpg';
-import { FaNodeJs } from 'react-icons/fa';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
+import profile from '../assets/Arenque_Jonslogar_Formal.jpg';
 
 import cvUrl from '../assets/files/Jonslogar Arenque CV.pdf';
 
 const Hero = () => {
   return (
     <>
-      <section id="hero" className="md:min-h-[90vh] h-auto text-slate-800">
+      <section
+        id="hero"
+        className="md:min-h-[90vh] h-auto text-slate-800"
+        data-aos="fade-up"
+      >
         <div className="flex md:flex-row flex-col min-h-[80vh] justify-center items-center gap-8">
           <div className=" flex-1 flex  justify-end">
             <img
-              src={profile2}
+              src={profile}
               alt="Jonslogar M. Arenque"
               className="w-[340px] h-[340px] object-cover rounded-full animate-bounce"
             />

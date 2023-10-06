@@ -1,3 +1,7 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -99,7 +103,7 @@ const techStack = [
 const TechStack = () => {
   return (
     <>
-      <section className="mt-10">
+      <section className="mt-10" data-aos="fade-up">
         <h4 className="text-2xl text-center text-slate-600 ">My Tech Stack</h4>
         <p className="text-center text-xl mt-4 md:mb-10">
           Beginner - <span className="font-semibold my-5">Intermediate</span>{' '}
@@ -113,7 +117,7 @@ const TechStack = () => {
             600: {
               slidesPerView: 6
             },
-            400: {
+            500: {
               slidesPerView: 4
             },
             300: {

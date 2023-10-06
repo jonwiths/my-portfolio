@@ -1,10 +1,10 @@
+import Layout from './Layout';
+import Hero from '../components/Hero';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+import GotoTop from '../components/GoToTop';
 import AboutMe from '../components/AboutMe';
 import Experience from '../components/Experience';
-import GotoTop from '../components/GoToTop';
-import Hero from '../components/Hero';
-import Navbar from '../components/Navbar';
-import TechStack from '../components/TechStack';
-import Layout from './Layout';
 
 const MainLayout = () => {
   return (
@@ -15,6 +15,7 @@ const MainLayout = () => {
         <AboutMe />
         <Experience />
       </Layout>
+      <Footer />
       <GotoTop />
     </>
   );
