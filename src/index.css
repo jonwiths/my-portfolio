@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Poppins;
+    src: url('/src/assets/fonts/Poppins-Regular.otf'), format('opentype');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: Poppins;
+    src: url('/src/assets/fonts/Poppins-Medium.otf'), format('opentype');
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: Poppins;
+    src: url('/src/assets/fonts/Poppins-Bold.otf'), format('opentype');
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  body {
+    background-color: white;
+    font-family: 'Poppins', 'sans-serif';
+  }
+
+  @keyframes wave {
+    0% {
+      transform: rotate(0deg);
+    }
+    20% {
+      transform: rotate(30deg);
+    }
+    40% {
+      transform: rotate(0deg);
+    }
+    60% {
+      transform: rotate(30deg);
+    }
+    80% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  .wave-animation {
+    animation: wave 2s infinite; /* Adjust the animation duration as needed */
+  }
+}
