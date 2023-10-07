@@ -60,12 +60,8 @@ const Experience = () => {
 
   return (
     <>
-      <section
-        id="experience"
-        className="mt-4 w-full mx-auto"
-        data-aos="fade-up"
-      >
-        <h4 className="text-2xl text-center text-slate-600 ">
+      <section id="experience" className="mt-4 w-full mx-auto">
+        <h4 className="text-2xl text-center text-slate-600 " data-aos="fade-up">
           My Work Experience
         </h4>
         <h4 className="my-3 text-4xl text-center text-slate-800 font-bold uppercase">
@@ -145,7 +141,7 @@ const Experience = () => {
               alt="Highly Succeed Inc."
               className="w-[300px] h-[300px] mx-auto rounded-full border-4 border-gray-800"
             />
-            <h2 className="mt-4 text-3xl font-bold">
+            <h2 className="mt-4 text-3xl font-bold text-center">
               Web Developer Intern{' '}
               {/* <span className="text-lg font-normal">(Part-time)</span> */}
             </h2>

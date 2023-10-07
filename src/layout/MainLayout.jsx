@@ -5,6 +5,8 @@ import Navbar from '../components/Navbar';
 import GotoTop from '../components/GoToTop';
 import AboutMe from '../components/AboutMe';
 import Experience from '../components/Experience';
+import ContactMe from '../components/ContactMe';
+import Projects from '../components/Projects';
 
 const MainLayout = () => {
   return (
@@ -14,6 +16,8 @@ const MainLayout = () => {
         <Hero />
         <AboutMe />
         <Experience />
+        <ContactMe />
+        <Projects />
       </Layout>
       <Footer />
       <GotoTop />
