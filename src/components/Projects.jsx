@@ -52,7 +52,7 @@ const projectContent = [
 const Projects = () => {
   return (
     <>
-      <section id="experience" className=" w-full mx-auto">
+      <section id="projects" className=" w-full mx-auto">
         <h4
           className="text-2xl text-center text-slate-600 md:mt-8 mt-4"
           data-aos="fade-up"
